@@ -1,4 +1,7 @@
 # RNRestaurantApp
+
+IN DEVELOPMENT
+
 This is React Native Application that lets you find Restaurants. 
 I have used https://www.yelp.com/developers API.
 
