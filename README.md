@@ -7,7 +7,6 @@ I have used https://www.yelp.com/developers API.
 
 Example screenshots
 
-![](https://scontent-waw1-1.xx.fbcdn.net/v/t1.15752-9/78066154_2583917125265144_7052752392168669184_n.jpg?_nc_cat=104&_nc_oc=AQkY_i0nSo6M31JaCDjkTP7S_DOUZ0hO3am_8KSoUcH820xQbUl5Wo3SoHpy9OqBvAY&_nc_ht=scontent-waw1-1.xx&oh=2744c5260ae4c613a5264d3258ca50fa&oe=5E758F16)
-![](https://scontent-waw1-1.xx.fbcdn.net/v/t1.15752-9/81344108_535199613732564_7819769281343651840_n.jpg?_nc_cat=107&_nc_oc=AQn2DkLJjV_FEfPXmZq-icaJBEgowLOzipfHHaQwT878SqzBS_Uhg7a2Jvfc45zMXek&_nc_ht=scontent-waw1-1.xx&oh=074c60a405894786ac7cf0ebcd1e0b64&oe=5EAE1738)
-![](https://scontent-waw1-1.xx.fbcdn.net/v/t1.15752-9/80348649_2555495114681090_7768134024869969920_n.jpg?_nc_cat=108&_nc_oc=AQkdzSbQ72EfLSnXmpsw5mEljpeEAwNlV3K3oczcOwQRBm7q5nPdUbs0LgZ5fyUE5p4&_nc_ht=scontent-waw1-1.xx&oh=d4ef6eb7a52db76f1c630d2a0fbda64c&oe=5EAF5510)
-
+![](https://scontent-waw1-1.xx.fbcdn.net/v/t1.15752-9/80587892_522042415068126_8130491340367593472_n.jpg?_nc_cat=111&_nc_oc=AQnyLxUNYId7Jt4Z8ui3RRWJBVFDHoe0V5eaK3PtqrNJK6w_9RtOd0X3z639Ihyg-rM&_nc_ht=scontent-waw1-1.xx&oh=e64978253e31c8d511071652b4fe8cef&oe=5E661442)
+![](https://scontent-waw1-1.xx.fbcdn.net/v/t1.15752-9/80440427_2473914232925864_6895608154512424960_n.jpg?_nc_cat=110&_nc_oc=AQkECZ-th6QJD1YDa5p2LuGBgqQkaZUOfF9lPRRjrAk44_nX26Y64ydCRKE26izr3qI&_nc_ht=scontent-waw1-1.xx&oh=8bacefcfa597f0c8afac2129e6c212ba&oe=5EA5D00C)
+![](https://scontent-waw1-1.xx.fbcdn.net/v/t1.15752-9/81668413_1435186113308112_2075984154897416192_n.jpg?_nc_cat=106&_nc_oc=AQm_6RlGwXP4yrbtg3iQneDG8j70jvi3uZtUNrAQNYP0NglKBQ890dpJ_i76tjKWoUE&_nc_ht=scontent-waw1-1.xx&oh=73738932f6ccf6ee0cbcfb2a30ef0af7&oe=5EAFF126)
