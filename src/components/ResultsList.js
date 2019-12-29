@@ -4,29 +4,28 @@ import { withNavigation } from 'react-navigation';
 import ResultsDetail from '../components/ResultsDetail';
 
 const ResultsList = ({ title, results, navigation }) => {
+    if (!results.length) {
+        return null;
+    }
+
     return (
         <View style={styles.container}>
-            {results.length > 0
-                ?
-                <View>
-                    <Text style={styles.title}>{title}</Text>
-                    <FlatList
-                        horizontal
-                        showsHorizontalScrollIndicator={false}
-                        data={results}
-                        keyExtractor={(result) => result.id}
-                        renderItem={({ item }) => {
-                            return (
-                                <TouchableOpacity onPress={() => navigation.navigate('ResultsShow', { id: item.id })}>
-                                    <ResultsDetail result={item} />
-                                </TouchableOpacity>
-                            );
-                        }}
-                    />
-                </View>
-                :
-                null
-            }
+            <View>
+                <Text style={styles.title}>{title}</Text>
+                <FlatList
+                    horizontal
+                    showsHorizontalScrollIndicator={false}
+                    data={results}
+                    keyExtractor={(result) => result.id}
+                    renderItem={({ item }) => {
+                        return (
+                            <TouchableOpacity onPress={() => navigation.navigate('ResultsShow', { id: item.id })}>
+                                <ResultsDetail result={item} />
+                            </TouchableOpacity>
+                        );
+                    }}
+                />
+            </View>
         </View>
     );
 };

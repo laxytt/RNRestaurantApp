@@ -1,13 +1,14 @@
 import React, { useState } from 'react';
 import { View, Text, StyleSheet, ScrollView } from 'react-native';
 import SearchBar from '../components/SearchBar';
+import CityList from '../components/CityList';
 import useResults from '../hooks/useResults';
 import ResultList from '../components/ResultsList';
 
 const SearchScreen = () => {
     const [term, setTerm] = useState('');
     const [searchApi, results, errorMessage] = useResults();
-    console.log(results)
+
     const filterResultsByPrice = (price) => {
         return results.filter(results => {
             return results.price === price;
@@ -21,6 +22,7 @@ const SearchScreen = () => {
                 onTermChange={setTerm}
                 onTermSubmit={() => searchApi(term)}
             />
+            <CityList />
             {errorMessage ? <Text>{errorMessage}</Text> : null}
             <ScrollView>
                 <ResultList
